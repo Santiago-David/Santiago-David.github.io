@@ -1,0 +1,61 @@
+body{
+background: rgb(147, 181, 212);
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+#container{
+    width: 70%;
+    background-color:rgb(215, 241, 237);
+    
+
+}
+
+.article{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 0px;
+        flex: 25%;
+}
+
+    article ul li{
+        list-style: none;
+    }
+    
+header{
+    background: rgb(173, 212, 188);
+    height: 100%;
+    width: 100%;
+    line-height: 100px;
+}
+
+nav{
+    background: rgb(205, 226, 167);
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav ul li{
+        display: flex;
+        text-align: center;
+        float: left;
+        list-style: none;
+        line-height: 0px;
+        padding: 14px;
+        flex-wrap: wrap;
+    }
+.clearfix{
+    clear: both;
+}
+
+#content{
+    width: 90%;
+}
+
+    img{
+        width: 100%;
+        /*display: flex;
+        padding: 5px;*/
+    }
